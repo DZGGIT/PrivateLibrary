@@ -19,6 +19,7 @@
     showStarsView *show=[[showStarsView alloc]initWithFrame:CGRectMake(100, 100, 100, 30)];
     [self.view addSubview:show];
     show.score=4.3;
+    NSLog(@"showStar");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
